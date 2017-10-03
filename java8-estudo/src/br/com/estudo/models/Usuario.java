@@ -13,6 +13,10 @@ public class Usuario {
     public Usuario() {
     }
 
+    public Usuario(String nome) {
+        this.nome = nome;
+    }
+
     public String getNome() {
         return nome;
     }
