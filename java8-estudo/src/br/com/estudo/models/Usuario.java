@@ -52,5 +52,6 @@ public class Usuario {
 
     public void tornaModerador(){
         this.moderador = true;
+        System.out.println(this);
     }
 }
